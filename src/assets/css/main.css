@@ -1,0 +1,16 @@
+#app {
+  font-family: "Montserrat", sans-serif;
+}
+
+.router-link-exact-actice {
+  font-weight: 800;
+}
+
+.btn-success {
+  background-color: #4eb883;
+  border: none;
+}
+
+.btn-primary{
+  background-color: #84A7BA;
+}
