@@ -13,7 +13,12 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 /* add icons to the library */
 library.add(faBagShopping);
+library.add(faEye);
+library.add(faMagnifyingGlass);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).use(store).use(router).mount("#app");

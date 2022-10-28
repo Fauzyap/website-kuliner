@@ -11,6 +11,7 @@ const routes = [
   {
     path: "/foods",
     name: "Foods",
+    component: Foods,
   },
   {
     path: "/about",
